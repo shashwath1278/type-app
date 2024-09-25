@@ -1,13 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode body styles */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply bg-gray-200 text-black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Dark mode body styles */
+.dark body {
+  @apply bg-gray-800 text-white;
 }
+
+.textar {
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.textar:disabled {
+  background-color: rgb(222, 217, 217);
+}
+
+/* Dark mode for textarea */
+.dark .textar {
+  background-color: rgb(55, 65, 81); /* Tailwind bg-gray-700 */
+  color: white;}
+
+  .dark .end{
+    
+        background-color: rgb(19, 21, 41) ; 
+        color: white;
+    
+  }
+  .dark .flend{
+    color:white;
+  }
+
+body {
+    @apply bg-white text-black;
+  }
+  
+  .dark body {
+    @apply bg-black text-white;
+  }
+  
+  .text-display {
+    padding: 10px;
+    border-radius: 4px;
+    line-height: 1.5;
+  
+  }
+ .dark  .text-display {
+    background-color: rgb(19, 21, 41) ; 
+    color: white;
+  }
+  .dark .g  {
+    background-color: rgb(19, 21, 41) ; 
+    color: white;
+  }
+  .dark .fred{
+    background-color: rgb(19, 21, 41) ; 
+    color: white;
+  }
+  .dark .newd{
+    background-color: rgb(19, 21, 41) ; 
+    color: white;
+  }
