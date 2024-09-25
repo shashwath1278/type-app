@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <Typingapp/>,      
       },
       {
-        path:"/learm-more",
+        path:"/learn-more",
         element: <Learnmore/>,      
       }
     ],
