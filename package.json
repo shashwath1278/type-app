@@ -1,11 +1,11 @@
 {
-  "homepage": "https://shashwath1278.github.io/type-app",
+  "homepage": "https://shashwath1278.github.io/type-app/",
   "name": "type-speed-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "react-scripts start",
+   
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
