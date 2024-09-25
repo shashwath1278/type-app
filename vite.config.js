@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
  
-  base:'/type-app/'
+  base:'/type-app/',
   plugins: [react()],
 })
