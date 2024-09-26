@@ -7,7 +7,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
       <Navbar fluid rounded className={`hr ${isDarkMode ? 'bg-[rgb(42,42,66)] text-white' : 'bg-white text-black'}`}>
         <Navbar.Brand href="/">
           <img
-            src="/public/icony.png"
+            src="/icony.png"
             height="100"
             width="60"
             className="mr-3 h-6 sm:h-9"

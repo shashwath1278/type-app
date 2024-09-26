@@ -15,7 +15,7 @@ const Dfooter = ({ isDarkMode }) => {
             <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
               <Footer.Brand
                 href="#"
-                src="/public/icony2.jpg"
+                src="/icony2.jpg"
                 alt="Type Fury Logo"
                 name="Type Fury"
               />
