@@ -1,0 +1,16 @@
+.real  {
+    margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed; /* This keeps the background image fixed as you scroll */  
+  background-image: url("https://media.istockphoto.com/id/1369748264/vector/abstract-white-background-geometric-texture.jpg?s=612x612&w=0&k=20&c=wFsN0D9Ifrw1-U8284OdjN25JJwvV9iKi9DdzVyMHEk=");
+}
+.dark .real  {
+    margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+   background-image: url("https://static.videezy.com/system/resources/thumbnails/000/051/471/original/blur-and-bokeh-abstract-motion-glittering-particles-and-dark-blue-background.jpg");
+}

@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  .dark .navbar {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color:white;
+    background-image: url("https://static.videezy.com/system/resources/thumbnails/000/051/471/original/blur-and-bokeh-abstract-motion-glittering-particles-and-dark-blue-background.jpg");
+  }
+  
+ 
+  .links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  .dark .links a{
+    color:white;
+  }

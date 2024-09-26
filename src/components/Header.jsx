@@ -28,8 +28,8 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
             Home
           </Navbar.Link>
           <Navbar.Link href="/type-speed" >Test your type speed</Navbar.Link>
-          <Navbar.Link href="#" >Products</Navbar.Link>
-          <Navbar.Link href="#" >Contact</Navbar.Link>
+          <Navbar.Link href="/Products" >Products</Navbar.Link>
+          <Navbar.Link href="/Contact" >Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>

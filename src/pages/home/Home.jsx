@@ -1,7 +1,6 @@
 import React from 'react';
 import { useOutletContext } from 'react-router-dom';
 import Camp from '../../components/Camp';
-import Texthome from '../../components/Texthome';
 import Dcard1 from '../../Dcard1';
 import Dcard2 from '../../Dcard2';
 import Dcard3 from '../../Dcard3';

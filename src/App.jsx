@@ -8,7 +8,7 @@ function App() {
 
   const [darkMode, setDarkMode] = useState(() => {
 
-    const savedMode = localStorage.getItem('darkMode');
+    const savedMode = localStorage.getItem('lightMode');
     return savedMode ? JSON.parse(savedMode) : false; 
   });
 
